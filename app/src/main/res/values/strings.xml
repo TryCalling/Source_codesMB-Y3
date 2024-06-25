@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ITE Online Shop</string>
+    
+    <!--String Name for My Project-->
+    <string name="faculty_of_engineering">Faculty Of Engineering</string>
+    <string name="search">Search Product</string>
+</resources>

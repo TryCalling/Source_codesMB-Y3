@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="Products"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableStart="@drawable/baseline_search_24"
+        android:drawableEnd="@drawable/baseline_camera_alt_24"
+        android:ems="10"
+        android:background="@drawable/bg_search"
+        android:hint="@string/search"
+        android:textSize="18dp"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="60dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
